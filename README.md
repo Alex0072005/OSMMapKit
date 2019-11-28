@@ -1,10 +1,10 @@
-#OSMMapKit
+# OSMMapKit
 
 OSMMapKit (MapKit for [OpenStreetMap]) is a tiny set of classes (just with a big name, lol) which takes tiles formatted in [MBTiles] SQLite3 database from MapBox and display it on iOS 7 MapKit. In other words, it presents offline map within a pre-defined region on iOS devices.
 
-##Usage
+## Usage
 
-###With MBTiles
+### With MBTiles
 ~~~
 NSURL *tilesURL = [[NSBundle mainBundle] URLForResource:@"SanFrancisco" withExtension:@"mbtiles"];
 
@@ -15,33 +15,41 @@ self.mapView = [[OSMMapView alloc] initWithFrame:self.view.bounds andMBTiles:til
 [self.view addSubview:self.mapView];
 ~~~
 
-###Without MBTiles
+### Without MBTiles
 When used without MBTiles, iOS 7 MapKit already provides the necessary MKTileOverlay to for external map such as Stamen's. The kit only provides additional facilities such as zoom level and map constraint.
 
-##Installation
+## Installation
+
+### CocoaPods
+Add this line to `Podfile`
+~~~
+pod 'OSMMapKit', :git => 'https://github.com/Alex0072005/OSMMapKit.git'
+~~~
+
+### Drag library to your project
 Drag the project into your directory. In your Build Phases add **libOSMMapKit.a** to "Link binary with libraries".
 
 ## Required external dependnecy
 [FMDB][FMDB] and Apple's own MapKit
 
-##How to obtain the data source
+## How to obtain the data source
 OpenStreetMap is a mapping project collecting geographical data from collaborators worldwide (For more information, please refer to [OpenStreetMap Wiki]). The data are available as XML files from OpenStreetMap ([OSM data download]). 
 
 To make [MBTiles], a SQLite3 database with a specific schema storing the tile images which OSMMapKit uses, import the data into [PostGis] with either [osm2pqsql] or [Imposm]. The desktop tile-making tool [TileMill] from MapBox can then generate the map tile images from the PostGis database according to [Carto] stylesheet (for starter, try [OSM Bright]) and package them into [MBTiles].
 
 Tutorial is available from MapBox. ([OSM Bright Mac OS X quickstart])
 
-##Known problem (to be fixed)
+## Known problem (to be fixed)
 Tiles around overlay seems to disappear when zoom-in.
 
-##License
+## License
 
-###MIT
+### MIT
 
 Code heavily influenced by sources from [MapBox iOS SDK] and [MBXMapKit], as well as various sources, notably [the discussion thread on ZoomLevel] from Troy Brant and input on [constraining the map region] from Anna Karenina.
 
 
-##Disclaimer
+## Disclaimer
 The project is not in any way associated with MapBox.
 
 
