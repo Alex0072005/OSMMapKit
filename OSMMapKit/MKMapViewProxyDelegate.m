@@ -11,6 +11,7 @@
 #import "mkgeometry_additions.h"
 #import "math.h"
 #import "MBTilesOverlay.h"
+#import "MKMapView+ZoomLevel.h"
 
 @interface MKMapViewProxyDelegate()
 

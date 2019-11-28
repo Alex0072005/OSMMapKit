@@ -11,6 +11,7 @@
 #import "MBTilesOverlay.h"
 #import "mkgeometry_additions.h"
 #import "MBTilesDB.h"
+#import "MKMapView+ZoomLevel.h"
 
 @interface OSMMapView()
 

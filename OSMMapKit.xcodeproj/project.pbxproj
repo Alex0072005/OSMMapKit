@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DD9DFD4B561EEB894D23B88 /* libPods-OSMMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B874A79C15166179A7D0A /* libPods-OSMMapKit.a */; };
 		4F83FF4AA23740F4A7667F20 /* libPods-OSMMapKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */; };
 		C22362F0182A59200013F0A8 /* tricity_13_15.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */; };
-		C2512D6718291E6700FADDE1 /* libPods-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2512D6618291E6700FADDE1 /* libPods-FMDB.a */; };
 		C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
 		C2D419E11827B7CF0033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
 		C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
@@ -60,13 +60,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1218AE50463171E4587BFAC0 /* Pods-OSMMapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKit.release.xcconfig"; path = "Target Support Files/Pods-OSMMapKit/Pods-OSMMapKit.release.xcconfig"; sourceTree = "<group>"; };
 		2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKitTests.xcconfig"; path = "Pods/Pods-OSMMapKitTests.xcconfig"; sourceTree = "<group>"; };
 		3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSMMapKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD243FD27576218224B72B7 /* Pods-OSMMapKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKitTests.debug.xcconfig"; path = "Target Support Files/Pods-OSMMapKitTests/Pods-OSMMapKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		4FFD355A6F01407E93CEA438 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8B874A79C15166179A7D0A /* libPods-OSMMapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSMMapKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B595A622E358AA153688D2 /* Pods-OSMMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKit.debug.xcconfig"; path = "Target Support Files/Pods-OSMMapKit/Pods-OSMMapKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = tricity_13_15.mbtiles; path = OSMMapKit/tricity_13_15.mbtiles; sourceTree = SOURCE_ROOT; };
 		C2512D6418291E5500FADDE1 /* libPods-FMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FMDB.a"; path = "Pods/build/Debug-iphoneos/libPods-FMDB.a"; sourceTree = "<group>"; };
-		C2512D6618291E6700FADDE1 /* libPods-FMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FMDB.a"; path = "Pods/build/Debug-iphoneos/libPods-FMDB.a"; sourceTree = "<group>"; };
 		C2D419DF1827B7090033992D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C2DEE11F1827B4D30031841E /* libOSMMapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOSMMapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DEE1221827B4D30031841E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +108,7 @@
 		C2DEE1761827B5D70031841E /* MockRealDelegateWithRegionDidChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRealDelegateWithRegionDidChange.h; sourceTree = "<group>"; };
 		C2DEE1771827B5D70031841E /* MockRealDelegateWithRegionDidChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRealDelegateWithRegionDidChange.m; sourceTree = "<group>"; };
 		C2DEE1781827B5D70031841E /* OSMMapViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMMapViewTests.m; sourceTree = "<group>"; };
+		D3D55079704992A4497BDDF9 /* Pods-OSMMapKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKitTests.release.xcconfig"; path = "Target Support Files/Pods-OSMMapKitTests/Pods-OSMMapKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			files = (
 				C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */,
 				C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */,
+				4DD9DFD4B561EEB894D23B88 /* libPods-OSMMapKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2512D6718291E6700FADDE1 /* libPods-FMDB.a in Frameworks */,
 				C2D419E11827B7CF0033992D /* libsqlite3.dylib in Frameworks */,
 				C2DEE1311827B4D30031841E /* XCTest.framework in Frameworks */,
 				C2DEE1371827B4D30031841E /* libOSMMapKit.a in Frameworks */,
@@ -133,6 +137,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E59FBCF5B2901F70F42525B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9B595A622E358AA153688D2 /* Pods-OSMMapKit.debug.xcconfig */,
+				1218AE50463171E4587BFAC0 /* Pods-OSMMapKit.release.xcconfig */,
+				3DD243FD27576218224B72B7 /* Pods-OSMMapKitTests.debug.xcconfig */,
+				D3D55079704992A4497BDDF9 /* Pods-OSMMapKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C2DEE1161827B4D30031841E = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +158,7 @@
 				C2DEE1201827B4D30031841E /* Products */,
 				4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */,
 				2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */,
+				1E59FBCF5B2901F70F42525B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,13 +174,12 @@
 		C2DEE1211827B4D30031841E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2512D6618291E6700FADDE1 /* libPods-FMDB.a */,
-				C2512D6418291E5500FADDE1 /* libPods-FMDB.a */,
 				C2D419DF1827B7090033992D /* libsqlite3.dylib */,
 				C2DEE1221827B4D30031841E /* Foundation.framework */,
 				C2DEE1301827B4D30031841E /* XCTest.framework */,
 				4FFD355A6F01407E93CEA438 /* libPods.a */,
 				3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */,
+				6B8B874A79C15166179A7D0A /* libPods-OSMMapKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,11 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2DEE1421827B4D30031841E /* Build configuration list for PBXNativeTarget "OSMMapKit" */;
 			buildPhases = (
+				9C7AFC40FCE37AEC91BE3B58 /* [CP] Check Pods Manifest.lock */,
 				A8CBEDD704E24B128391A59B /* Check Pods Manifest.lock */,
 				C2DEE11B1827B4D30031841E /* Sources */,
 				C2DEE11C1827B4D30031841E /* Frameworks */,
 				C2DEE11D1827B4D30031841E /* CopyFiles */,
-				88AD5A70FF254BB1A81F3219 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,11 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2DEE1451827B4D30031841E /* Build configuration list for PBXNativeTarget "OSMMapKitTests" */;
 			buildPhases = (
+				3D3FA268DFB710A3D1F790CB /* [CP] Check Pods Manifest.lock */,
 				83612AF85A694DBD81CBF167 /* Check Pods Manifest.lock */,
 				C2DEE12B1827B4D30031841E /* Sources */,
 				C2DEE12C1827B4D30031841E /* Frameworks */,
 				C2DEE12D1827B4D30031841E /* Resources */,
-				8C7BFBB8DD5444E6B6251F0B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,6 +362,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3D3FA268DFB710A3D1F790CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OSMMapKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		83612AF85A694DBD81CBF167 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,34 +399,26 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		88AD5A70FF254BB1A81F3219 /* Copy Pods Resources */ = {
+		9C7AFC40FCE37AEC91BE3B58 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OSMMapKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C7BFBB8DD5444E6B6251F0B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-OSMMapKitTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A8CBEDD704E24B128391A59B /* Check Pods Manifest.lock */ = {
@@ -533,7 +563,7 @@
 		};
 		C2DEE1431827B4D30031841E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */;
+			baseConfigurationReference = A9B595A622E358AA153688D2 /* Pods-OSMMapKit.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/OSMMapKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -546,7 +576,7 @@
 		};
 		C2DEE1441827B4D30031841E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */;
+			baseConfigurationReference = 1218AE50463171E4587BFAC0 /* Pods-OSMMapKit.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/OSMMapKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -559,7 +589,7 @@
 		};
 		C2DEE1461827B4D30031841E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */;
+			baseConfigurationReference = 3DD243FD27576218224B72B7 /* Pods-OSMMapKitTests.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -581,7 +611,7 @@
 		};
 		C2DEE1471827B4D30031841E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */;
+			baseConfigurationReference = D3D55079704992A4497BDDF9 /* Pods-OSMMapKitTests.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
