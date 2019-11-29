@@ -79,6 +79,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "OSMMapKit/*.{h,m}"
   spec.exclude_files = "OSMMapKit/*.mbtiles"
   spec.vendored_libraries = "OSMMapKit/libOSMMapKit.a"
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
