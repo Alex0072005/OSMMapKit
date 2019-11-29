@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <MapKit/MapKit.h>
 #import "MBTilesDB.h"
 
 extern NSString * const MBTilesOverlayError;
