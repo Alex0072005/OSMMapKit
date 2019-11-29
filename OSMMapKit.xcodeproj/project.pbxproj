@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DD9DFD4B561EEB894D23B88 /* libPods-OSMMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B874A79C15166179A7D0A /* libPods-OSMMapKit.a */; };
 		4F83FF4AA23740F4A7667F20 /* libPods-OSMMapKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */; };
 		C22362F0182A59200013F0A8 /* tricity_13_15.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */; };
 		C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
 		C2D419E11827B7CF0033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
-		C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
 		C2DEE1311827B4D30031841E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1301827B4D30031841E /* XCTest.framework */; };
 		C2DEE1321827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
 		C2DEE1371827B4D30031841E /* libOSMMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE11F1827B4D30031841E /* libOSMMapKit.a */; };
@@ -113,8 +111,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */,
-				C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */,
-				4DD9DFD4B561EEB894D23B88 /* libPods-OSMMapKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +137,6 @@
 				3DD243FD27576218224B72B7 /* Pods-OSMMapKitTests.debug.xcconfig */,
 				D3D55079704992A4497BDDF9 /* Pods-OSMMapKitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -183,7 +178,6 @@
 		C2DEE1241827B4D30031841E /* OSMMapKit */ = {
 			isa = PBXGroup;
 			children = (
-				C2DEE1271827B4D30031841E /* OSMMapKit.h */,
 				C2DEE16F1827B5600031841E /* MBTiles */,
 				C2DEE16E1827B52E0031841E /* Cocoa additions */,
 				C2DEE1701827B5700031841E /* Map additions */,
@@ -332,6 +326,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C2DEE1161827B4D30031841E;
