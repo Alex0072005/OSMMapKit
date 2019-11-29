@@ -13,7 +13,6 @@
 		C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
 		C2D419E11827B7CF0033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
 		C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
-		C2DEE1281827B4D30031841E /* OSMMapKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2DEE1271827B4D30031841E /* OSMMapKit.h */; };
 		C2DEE1311827B4D30031841E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1301827B4D30031841E /* XCTest.framework */; };
 		C2DEE1321827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
 		C2DEE1371827B4D30031841E /* libOSMMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE11F1827B4D30031841E /* libOSMMapKit.a */; };
@@ -53,7 +52,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C2DEE1281827B4D30031841E /* OSMMapKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +67,10 @@
 		6B8B874A79C15166179A7D0A /* libPods-OSMMapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSMMapKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B595A622E358AA153688D2 /* Pods-OSMMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKit.debug.xcconfig"; path = "Target Support Files/Pods-OSMMapKit/Pods-OSMMapKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = tricity_13_15.mbtiles; path = OSMMapKit/tricity_13_15.mbtiles; sourceTree = SOURCE_ROOT; };
-		C2512D6418291E5500FADDE1 /* libPods-FMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FMDB.a"; path = "Pods/build/Debug-iphoneos/libPods-FMDB.a"; sourceTree = "<group>"; };
 		C2D419DF1827B7090033992D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C2DEE11F1827B4D30031841E /* libOSMMapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOSMMapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DEE1221827B4D30031841E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2DEE1261827B4D30031841E /* OSMMapKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSMMapKit-Prefix.pch"; sourceTree = "<group>"; };
-		C2DEE1271827B4D30031841E /* OSMMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSMMapKit.h; sourceTree = "<group>"; };
 		C2DEE12F1827B4D30031841E /* OSMMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSMMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DEE1301827B4D30031841E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2DEE13A1827B4D30031841E /* OSMMapKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSMMapKitTests-Info.plist"; sourceTree = "<group>"; };
