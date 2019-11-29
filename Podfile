@@ -7,5 +7,5 @@ target 'OSMMapKitTests' do
 end
 
 target 'OSMMapKit' do
-pod 'FMDB'
+	pod 'FMDB'
 end
