@@ -78,8 +78,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "OSMMapKit/*.{h,m}"
   spec.exclude_files = "OSMMapKit/*.mbtiles"
-  spec.public_header_files = "OSMMapKit/OSMMapKit.h"
-  spec.vendored_libraries = "libOSMMapKit.a"
+  spec.vendored_libraries = "OSMMapKit/libOSMMapKit.a"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
