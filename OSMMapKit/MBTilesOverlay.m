@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 #import "mkgeometry_additions.h"
 
-NSString * const MBTilesOverlayError = @"MBTilesOverlayError";
+static NSString * const MBTilesOverlayError = @"MBTilesOverlayError";
 
 @interface MBTilesOverlay()
 
