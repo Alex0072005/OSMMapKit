@@ -565,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9B595A622E358AA153688D2 /* Pods-OSMMapKit.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/OSMMapKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSMMapKit/OSMMapKit-Prefix.pch";
@@ -579,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1218AE50463171E4587BFAC0 /* Pods-OSMMapKit.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/OSMMapKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSMMapKit/OSMMapKit-Prefix.pch";
