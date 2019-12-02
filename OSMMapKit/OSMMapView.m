@@ -11,7 +11,6 @@
 #import "MBTilesOverlay.h"
 #import "mkgeometry_additions.h"
 #import "MBTilesDB.h"
-#import "MKMapView+ZoomLevel.h"
 
 @interface OSMMapView()
 
@@ -94,7 +93,7 @@
     self.tilesOverlay.canReplaceMapContent = YES;
     [super addOverlay:self.tilesOverlay]; // calling super to bypass overlay store
 }
-
+/*
 - (void)setUpMapViewPort
 {
     // Make it zoom out and center
@@ -103,7 +102,7 @@
                      animated:NO];
 //    [self setRegion:self.mbTilesDB.region animated:NO];
 }
-
+*/
 - (void)setupProxyDelegate
 {
     self.realDelegate = nil;
@@ -165,7 +164,7 @@
 }
 
 #pragma mark - layout
-
+/*
 - (void)layoutSubviews
 {
     [super layoutSubviews];
@@ -174,7 +173,7 @@
         [self setUpMapViewPort];
     }
 }
-
+*/
 #pragma mark - Accessories
 - (MKCoordinateRegion)constraintRegion
 {

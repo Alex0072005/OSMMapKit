@@ -78,8 +78,10 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "OSMMapKit/*.{h,m}"
   spec.exclude_files = "OSMMapKit/*.mbtiles"
-  spec.vendored_libraries = "OSMMapKit/libOSMMapKit.a"
+  #spec.vendored_libraries = "OSMMapKit/libOSMMapKit.a"
+  spec.prefix_header_file = "OSMMapKit/OSMMapKit-Prefix.pch"
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  #spec.public_header_files  = "OSMMapKit/OSMMapKit.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +107,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.frameworks = "MapKit", "UIKit"
+  spec.frameworks = "Foundation", "MapKit", "UIKit"
   spec.library   = "sqlite3"
   # spec.libraries = "iconv", "xml2"
 

@@ -11,7 +11,6 @@
 #import "mkgeometry_additions.h"
 #import "math.h"
 #import "MBTilesOverlay.h"
-#import "MKMapView+ZoomLevel.h"
 
 @interface MKMapViewProxyDelegate()
 
@@ -78,7 +77,8 @@
 - (BOOL)respondsToSelector:(SEL)aSelector
 {
     if (aSelector == @selector(mapView:regionDidChangeAnimated:) ||
-        aSelector == @selector(mapView:rendererForOverlay:)) {
+        aSelector == @selector(mapView:rendererForOverlay:)||
+        aSelector == @selector(mapView:viewForAnnotation:)) {
         return YES;
     }
     return NO;
@@ -148,6 +148,13 @@
     }
     if ([self.realDelegate respondsToSelector:@selector(mapView:rendererForOverlay:)]) {
         return [self.realDelegate mapView:mapView rendererForOverlay:overlay];
+    }
+    return nil;
+}
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation {
+    if ([self.realDelegate respondsToSelector:@selector(mapView:viewForAnnotation:)]) {
+        return [self.realDelegate mapView:mapView viewForAnnotation:annotation];
     }
     return nil;
 }

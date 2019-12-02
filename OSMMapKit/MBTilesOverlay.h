@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 #import "MBTilesDB.h"
 
 //extern NSString * const MBTilesOverlayError;
@@ -14,7 +15,7 @@ enum {
     MBTilesOverlayErrorTileDoesNotExist
 };
 
-//extern NSString * const MBTiles_No_Data;
+extern NSString * const MBTiles_No_Data;
 
 @interface MBTilesOverlay : MKTileOverlay<MKOverlay>
 
